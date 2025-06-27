@@ -1,29 +1,41 @@
-# CohortConnect - Employee Information Web App
+**# CohortConnect - Employee Information Web App**
 
 This web application allows new employees to input their information and upload photos so that existing employees can view their details. The project uses AWS infrastructure for hosting, storage, and scalability.
 
-## 🛠️ Technologies Used
+---
 
-- **AWS Services**: EC2, VPC, Application Load Balancer, S3, Route 53, RDS
-- **Infrastructure as Code**: AWS CLI, CloudFormation
+**🛠️ Technologies Used**
 
-## 🚀 Features
-
-- New employee data input and photo upload
-- Existing employees can view uploaded information
-- Scalable and secure architecture on AWS
-
-## 📦 Deployment
-
-- Resources are provisioned using AWS CloudFormation templates.
-- Application runs on EC2 instances behind an Application Load Balancer.
-- Employee photos and data are stored in S3.
-- Employee information is saved in RDS.
-
-## 🔗 Repository
-
-[GitHub Repo](https://github.com/Rahi88/cohortconnect.git)
+- **AWS EC2** – For hosting the application.
+- **AWS VPC** – With public and private subnets for secure networking.
+- **Application Load Balancer** – For distributing traffic.
+- **AWS S3** – For storing employee photos and data.
+- **AWS Route 53** – For DNS management.
+- **AWS RDS** – For storing employee information in a relational database.
+- **AWS CLI & CloudFormation** – For automating infrastructure deployment.
 
 ---
 
+**🚀 Features**
 
+✅ New employees can enter their information and upload photos.  
+✅ Existing employees can view new employee details.  
+✅ Application runs on a secure, scalable AWS infrastructure.  
+✅ Automated deployment using Infrastructure as Code (CloudFormation).
+
+---
+
+**📦 Deployment Overview**
+
+- The application is deployed on EC2 instances in a VPC.
+- An Application Load Balancer ensures high availability.
+- Photos are stored in S3, and employee data is saved in RDS.
+- CloudFormation templates automate the setup of resources.
+
+---
+
+**🔗 Repository**
+
+[GitHub Repository](https://github.com/Rahi88/cohortconnect.git)
+
+---
