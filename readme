@@ -1,1 +1,29 @@
+# CohortConnect - Employee Information Web App
+
+This web application allows new employees to input their information and upload photos so that existing employees can view their details. The project uses AWS infrastructure for hosting, storage, and scalability.
+
+## 🛠️ Technologies Used
+
+- **AWS Services**: EC2, VPC, Application Load Balancer, S3, Route 53, RDS
+- **Infrastructure as Code**: AWS CLI, CloudFormation
+
+## 🚀 Features
+
+- New employee data input and photo upload
+- Existing employees can view uploaded information
+- Scalable and secure architecture on AWS
+
+## 📦 Deployment
+
+- Resources are provisioned using AWS CloudFormation templates.
+- Application runs on EC2 instances behind an Application Load Balancer.
+- Employee photos and data are stored in S3.
+- Employee information is saved in RDS.
+
+## 🔗 Repository
+
+[GitHub Repo](https://github.com/Rahi88/cohortconnect.git)
+
+---
+
 
