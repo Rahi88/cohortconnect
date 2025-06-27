@@ -2,7 +2,6 @@
 
 This web application allows new employees to input their information and upload photos so that existing employees can view their details. It uses AWS infrastructure for hosting, storage, and scalability.
 
----
 
 ## 🛠 Features
 
@@ -11,17 +10,16 @@ This web application allows new employees to input their information and upload 
 - ✅ Application runs on a secure, scalable AWS architecture  
 - ✅ Automated deployment using Infrastructure as Code (CloudFormation)
 
----
 
 ## 🚀 Technologies Used
 
-- **AWS EC2** – Hosting the application servers
-- **AWS VPC** – Public and private subnets for secure networking
-- **Application Load Balancer** – Distributes traffic for high availability
-- **AWS S3** – Stores employee photos and data
-- **AWS Route 53** – DNS management for the application domain
-- **AWS RDS** – Persists employee information in a relational database
-- **AWS CLI & CloudFormation** – Automates infrastructure deployment (IaC)
+- AWS EC2 : Hosting the application servers
+- AWS VPC : Public and private subnets for secure networking
+- Application Load Balancer : Distributes traffic for high availability
+- AWS S3 : Stores employee photos and data
+- AWS Route 53 : DNS management for the application domain
+- AWS RDS : Persists employee information in a relational database
+- AWS CLI & CloudFormation : Automates infrastructure deployment (IaC)
 
 ---
 
@@ -35,9 +33,9 @@ This web application allows new employees to input their information and upload 
 
 ## 🔗 Repository
 
-[GitHub Repository](https://github.com/Rahi88/cohortconnect.git)
+https://github.com/Rahi88/cohortconnect.git
 
----
+
 
 ## 📌 Notes
 
