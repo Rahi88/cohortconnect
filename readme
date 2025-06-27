@@ -1,4 +1,4 @@
-**# CohortConnect - Employee Information Web App**
+# CohortConnect - Employee Information Web App
 
 This web application allows new employees to input their information and upload photos so that existing employees can view their details. The project uses AWS infrastructure for hosting, storage, and scalability.
 
